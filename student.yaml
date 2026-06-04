@@ -1,0 +1,38 @@
+students:
+  - name: "Sampath"
+    age: 25
+    city: "Bangalore"
+    dob: "1998-01-01"
+    mobile: "1234567890"
+    email: "sampath@gmail.com"
+    course: "Ansible"
+
+    addresses:
+      - type: "permanent"
+        street: "Main Street"
+        city: "Bangalore"
+        state: "Karnataka"
+
+      - type: "temporary"
+        street: "MG Road"
+        city: "Bangalore"
+        state: "Karnataka"
+
+  - name: "Vijay"
+    age: 20
+    city: "Hyderabad"
+    dob: "1998-01-02"
+    mobile: "1234567890"
+    email: "vijay@gmail.com"
+    course: "Ansible"
+
+    addresses:
+      - type: "permanent"
+        street: "Main Street"
+        city: "Bangalore"
+        state: "Karnataka"
+
+      - type: "temporary"
+        street: "MG Road"
+        city: "Bangalore"
+        state: "Karnataka"

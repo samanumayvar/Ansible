@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "FirstName": "John",
+      "LastName": "Doe",
+      "Address": {
+        "type": "home",
+        "line1": "123 Main St",
+        "line2": "Apt 4B"
+      }
+    },
+    {
+      "FirstName": "Jane",
+      "LastName": "Smith",
+      "Address": {
+        "type": "home",
+        "line1": "456 Elm St",
+        "line2": "Apt 2A"
+      }
+    }
+  ]
+}
