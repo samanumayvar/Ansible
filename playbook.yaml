@@ -1,0 +1,5 @@
+- name: ping the server
+  hosts: frontend # target group defined in inventory.ini
+  tasks:
+    - name: ping the server
+      ansible.builtin.ping:
