@@ -1,19 +1,13 @@
-
----
-
-* name: Install Nginx package
+- name: install nginx
   hosts: frontend
-  become: yes
 
   tasks:
-
-  * name: Install nginx
-    dnf:
-    name: nginx
-    state: present
-
-  * name: Start and enable nginx
-    service:
-    name: nginx
-    state: started
-    enabled: yes
+    - name: install nginx
+      ansible.builtin.yum:
+        name: nginx
+        state: present
+    - name: start and enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: true
