@@ -1,9 +1,8 @@
-name: demo on debug
-hosts: frontend
-tasks:
-  - name: ping the server
-    debug:
-      msg: "This is a debug message"
-    
+---
+- name: demo on debug
+  hosts: frontend
 
- 
+  tasks:
+    - name: ping the server
+      debug:
+        msg: "This is a debug message"
