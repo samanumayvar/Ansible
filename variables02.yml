@@ -11,5 +11,8 @@
   - name: display the variables
     vars:
      course: "Ansible Automation"
+     trainer: "Sam"
+     duration: "200hrs"
+
     debug:  
         msg: "Hi, I am learning {{ course }} variables, trainer is {{ trainer }}, Duration is {{ duration }}"
