@@ -1,0 +1,8 @@
+- name: demo on local variables
+  hosts: local  
+  connection: local
+
+  tasks:
+  - name: display the variables 
+    debug:  
+        msg: "Hi, I am learning {{ course }} variables, trainer is {{ trainer }}, Duration is {{ duration }}"
