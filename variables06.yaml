@@ -1,0 +1,6 @@
+- name: demo on variables
+  hosts: frontend
+  tasks:
+    - name: print the variable
+      debug:
+        msg: "Hi, I am learning {{ course }} variables, trainer is {{ trainer }}, Duration is {{ duration }}"
